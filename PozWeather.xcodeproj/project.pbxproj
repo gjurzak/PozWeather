@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570CF0D43B21C6E0865F9264 /* libPods-PozWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E72D1A710F19F0F75FDB09 /* libPods-PozWeather.a */; };
 		69566BF21BA8D446009E72C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69566BF11BA8D446009E72C5 /* main.m */; };
 		69566BF51BA8D446009E72C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69566BF41BA8D446009E72C5 /* AppDelegate.m */; };
 		69566BF81BA8D446009E72C5 /* PozWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69566BF61BA8D446009E72C5 /* PozWeather.xcdatamodeld */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50E72D1A710F19F0F75FDB09 /* libPods-PozWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PozWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69566BEC1BA8D446009E72C5 /* PozWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PozWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69566BF01BA8D446009E72C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69566BF11BA8D446009E72C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +44,8 @@
 		69566C081BA8D446009E72C5 /* PozWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PozWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69566C0D1BA8D446009E72C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69566C0E1BA8D446009E72C5 /* PozWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PozWeatherTests.m; sourceTree = "<group>"; };
+		9826DBDE1C75B703EC540538 /* Pods-PozWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PozWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-PozWeather/Pods-PozWeather.release.xcconfig"; sourceTree = "<group>"; };
+		9E29F3233A0EE5F7BC8E701A /* Pods-PozWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PozWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PozWeather/Pods-PozWeather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570CF0D43B21C6E0865F9264 /* libPods-PozWeather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +67,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		149E12F0423D61635A092681 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E29F3233A0EE5F7BC8E701A /* Pods-PozWeather.debug.xcconfig */,
+				9826DBDE1C75B703EC540538 /* Pods-PozWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		69566BE31BA8D446009E72C5 = {
 			isa = PBXGroup;
 			children = (
 				69566BEE1BA8D446009E72C5 /* PozWeather */,
 				69566C0B1BA8D446009E72C5 /* PozWeatherTests */,
 				69566BED1BA8D446009E72C5 /* Products */,
+				149E12F0423D61635A092681 /* Pods */,
+				895076C8BC9EB0EE277922D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +138,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		895076C8BC9EB0EE277922D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50E72D1A710F19F0F75FDB09 /* libPods-PozWeather.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69566C121BA8D446009E72C5 /* Build configuration list for PBXNativeTarget "PozWeather" */;
 			buildPhases = (
+				64732CDE9D631E43C947A06E /* Check Pods Manifest.lock */,
 				69566BE81BA8D446009E72C5 /* Sources */,
 				69566BE91BA8D446009E72C5 /* Frameworks */,
 				69566BEA1BA8D446009E72C5 /* Resources */,
+				2ED22E71585C835EE121CEB1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,6 +242,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ED22E71585C835EE121CEB1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PozWeather/Pods-PozWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64732CDE9D631E43C947A06E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		69566BE81BA8D446009E72C5 /* Sources */ = {
@@ -351,6 +410,7 @@
 		};
 		69566C131BA8D446009E72C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E29F3233A0EE5F7BC8E701A /* Pods-PozWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PozWeather/Info.plist;
@@ -361,6 +421,7 @@
 		};
 		69566C141BA8D446009E72C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9826DBDE1C75B703EC540538 /* Pods-PozWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PozWeather/Info.plist;
@@ -422,6 +483,7 @@
 				69566C141BA8D446009E72C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69566C151BA8D446009E72C5 /* Build configuration list for PBXNativeTarget "PozWeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +492,7 @@
 				69566C171BA8D446009E72C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
