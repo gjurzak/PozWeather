@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>162A6D7C-A766-41EF-B58C-15F941EF4BE7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PozWeather</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5D65F03DDBBCDF653E9EE6F6AA561472569E68BB</key>
+		<string>https://github.com/gjurzak/PozWeather.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PozWeather.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5D65F03DDBBCDF653E9EE6F6AA561472569E68BB</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gjurzak/PozWeather.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5D65F03DDBBCDF653E9EE6F6AA561472569E68BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5D65F03DDBBCDF653E9EE6F6AA561472569E68BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PozWeather</string>
+		</dict>
+	</array>
+</dict>
+</plist>

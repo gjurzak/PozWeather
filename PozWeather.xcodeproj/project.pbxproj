@@ -11,11 +11,18 @@
 		69566BF21BA8D446009E72C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69566BF11BA8D446009E72C5 /* main.m */; };
 		69566BF51BA8D446009E72C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69566BF41BA8D446009E72C5 /* AppDelegate.m */; };
 		69566BF81BA8D446009E72C5 /* PozWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69566BF61BA8D446009E72C5 /* PozWeather.xcdatamodeld */; };
-		69566BFB1BA8D446009E72C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69566BFA1BA8D446009E72C5 /* ViewController.m */; };
 		69566BFE1BA8D446009E72C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69566BFC1BA8D446009E72C5 /* Main.storyboard */; };
 		69566C001BA8D446009E72C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69566BFF1BA8D446009E72C5 /* Images.xcassets */; };
 		69566C031BA8D446009E72C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69566C011BA8D446009E72C5 /* LaunchScreen.xib */; };
 		69566C0F1BA8D446009E72C5 /* PozWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69566C0E1BA8D446009E72C5 /* PozWeatherTests.m */; };
+		6962054F1BA8DE2B00C761F6 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6962054E1BA8DE2B00C761F6 /* NetworkManager.m */; };
+		696205541BA8E2E400C761F6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696205531BA8E2E400C761F6 /* MainViewController.m */; };
+		696205571BA8E73700C761F6 /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 696205561BA8E73700C761F6 /* MainCollectionViewCell.m */; };
+		6962055D1BA8F38A00C761F6 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6962055C1BA8F38A00C761F6 /* DBManager.m */; };
+		696205631BA8FA7D00C761F6 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 696205621BA8FA7D00C761F6 /* City.m */; };
+		696205661BA9022100C761F6 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 696205651BA9022100C761F6 /* Weather.m */; };
+		6962056C1BA9040C00C761F6 /* RemoteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6962056B1BA9040C00C761F6 /* RemoteImageView.m */; };
+		696205701BA905F100C761F6 /* Day.m in Sources */ = {isa = PBXBuildFile; fileRef = 6962056F1BA905F100C761F6 /* Day.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +43,28 @@
 		69566BF31BA8D446009E72C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		69566BF41BA8D446009E72C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		69566BF71BA8D446009E72C5 /* PozWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PozWeather.xcdatamodel; sourceTree = "<group>"; };
-		69566BF91BA8D446009E72C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		69566BFA1BA8D446009E72C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		69566BFD1BA8D446009E72C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69566BFF1BA8D446009E72C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		69566C021BA8D446009E72C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		69566C081BA8D446009E72C5 /* PozWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PozWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69566C0D1BA8D446009E72C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69566C0E1BA8D446009E72C5 /* PozWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PozWeatherTests.m; sourceTree = "<group>"; };
+		6962054D1BA8DE2B00C761F6 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		6962054E1BA8DE2B00C761F6 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		696205521BA8E2E400C761F6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		696205531BA8E2E400C761F6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		696205551BA8E73700C761F6 /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewCell.h; sourceTree = "<group>"; };
+		696205561BA8E73700C761F6 /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
+		6962055B1BA8F38A00C761F6 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		6962055C1BA8F38A00C761F6 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		696205611BA8FA7D00C761F6 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		696205621BA8FA7D00C761F6 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		696205641BA9022100C761F6 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		696205651BA9022100C761F6 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		6962056A1BA9040C00C761F6 /* RemoteImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteImageView.h; sourceTree = "<group>"; };
+		6962056B1BA9040C00C761F6 /* RemoteImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteImageView.m; sourceTree = "<group>"; };
+		6962056E1BA905F100C761F6 /* Day.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day.h; sourceTree = "<group>"; };
+		6962056F1BA905F100C761F6 /* Day.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Day.m; sourceTree = "<group>"; };
 		9826DBDE1C75B703EC540538 /* Pods-PozWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PozWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-PozWeather/Pods-PozWeather.release.xcconfig"; sourceTree = "<group>"; };
 		9E29F3233A0EE5F7BC8E701A /* Pods-PozWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PozWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PozWeather/Pods-PozWeather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,12 +122,13 @@
 			children = (
 				69566BF31BA8D446009E72C5 /* AppDelegate.h */,
 				69566BF41BA8D446009E72C5 /* AppDelegate.m */,
-				69566BF91BA8D446009E72C5 /* ViewController.h */,
-				69566BFA1BA8D446009E72C5 /* ViewController.m */,
+				696205501BA8DE3300C761F6 /* Managers */,
+				6962054C1BA8DE0E00C761F6 /* Controllers */,
+				696205511BA8DE4300C761F6 /* Model */,
+				6962056D1BA9041100C761F6 /* Utils */,
 				69566BFC1BA8D446009E72C5 /* Main.storyboard */,
 				69566BFF1BA8D446009E72C5 /* Images.xcassets */,
 				69566C011BA8D446009E72C5 /* LaunchScreen.xib */,
-				69566BF61BA8D446009E72C5 /* PozWeather.xcdatamodeld */,
 				69566BEF1BA8D446009E72C5 /* Supporting Files */,
 			);
 			path = PozWeather;
@@ -136,6 +158,51 @@
 				69566C0D1BA8D446009E72C5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6962054C1BA8DE0E00C761F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				696205521BA8E2E400C761F6 /* MainViewController.h */,
+				696205531BA8E2E400C761F6 /* MainViewController.m */,
+				696205551BA8E73700C761F6 /* MainCollectionViewCell.h */,
+				696205561BA8E73700C761F6 /* MainCollectionViewCell.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		696205501BA8DE3300C761F6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6962054D1BA8DE2B00C761F6 /* NetworkManager.h */,
+				6962054E1BA8DE2B00C761F6 /* NetworkManager.m */,
+				6962055B1BA8F38A00C761F6 /* DBManager.h */,
+				6962055C1BA8F38A00C761F6 /* DBManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		696205511BA8DE4300C761F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6962056E1BA905F100C761F6 /* Day.h */,
+				6962056F1BA905F100C761F6 /* Day.m */,
+				696205641BA9022100C761F6 /* Weather.h */,
+				696205651BA9022100C761F6 /* Weather.m */,
+				696205611BA8FA7D00C761F6 /* City.h */,
+				696205621BA8FA7D00C761F6 /* City.m */,
+				69566BF61BA8D446009E72C5 /* PozWeather.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6962056D1BA9041100C761F6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6962056A1BA9040C00C761F6 /* RemoteImageView.h */,
+				6962056B1BA9040C00C761F6 /* RemoteImageView.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		895076C8BC9EB0EE277922D0 /* Frameworks */ = {
@@ -281,10 +348,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				696205701BA905F100C761F6 /* Day.m in Sources */,
 				69566BF81BA8D446009E72C5 /* PozWeather.xcdatamodeld in Sources */,
+				696205541BA8E2E400C761F6 /* MainViewController.m in Sources */,
+				6962056C1BA9040C00C761F6 /* RemoteImageView.m in Sources */,
 				69566BF51BA8D446009E72C5 /* AppDelegate.m in Sources */,
-				69566BFB1BA8D446009E72C5 /* ViewController.m in Sources */,
+				696205661BA9022100C761F6 /* Weather.m in Sources */,
+				6962054F1BA8DE2B00C761F6 /* NetworkManager.m in Sources */,
 				69566BF21BA8D446009E72C5 /* main.m in Sources */,
+				696205571BA8E73700C761F6 /* MainCollectionViewCell.m in Sources */,
+				6962055D1BA8F38A00C761F6 /* DBManager.m in Sources */,
+				696205631BA8FA7D00C761F6 /* City.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PozWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -425,6 +500,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PozWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
